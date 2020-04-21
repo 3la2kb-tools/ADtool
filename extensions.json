@@ -1,0 +1,7 @@
+{
+  "py": ["py_fixed_seed"],
+  "php": ["php_fixed_seed"],
+  "c": ["c_fixed_seed"],
+  "js": ["js_fixed_seed"],
+  "go": ["go_fixed_seed"]
+}
