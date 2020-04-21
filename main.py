@@ -9,7 +9,7 @@ jsonFile = open("extensions.json", "r").read()
 parsedJson = json.loads(jsonFile)
 
 # Getting target directory
-target = '.'
+target = sys.argv[1]
 files = glob.glob(target+'/**', recursive=True)
 
 for file in files :
